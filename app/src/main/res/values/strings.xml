@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Individual7</string>
+    <string name="textview">TextView</string>
+    <string name="actividad_a_registrar">Actividad a Registrar</string>
+    <string name="todo">TODO</string>
+    <string name="imagen_agregada">TODO</string>
+    <string name="registrar">Registrar</string>
+    <string name="cual_sera_la_actividad">¿Cual sera la actividad?</string>
+</resources>

@@ -36,7 +36,7 @@
         android:autofillHints=""
         android:hint="@string/actividad_a_registrar"
         android:inputType="text"
-        android:textColorHint="#8D6E63"
+        android:textColorHint="#000000"
         app:layout_constraintEnd_toEndOf="@+id/calendarView"
         app:layout_constraintStart_toStartOf="@+id/calendarView"
         app:layout_constraintTop_toBottomOf="@+id/calendarView" />
@@ -50,14 +50,14 @@
         app:layout_constraintEnd_toEndOf="@+id/editText"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editText"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/Registrar" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/Registrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="Registrar"
+        android:text="@string/ButtonRegistrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
